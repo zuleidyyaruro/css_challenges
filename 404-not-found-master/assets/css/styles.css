@@ -1,0 +1,15 @@
+:root {
+    --clr-black-1: #333333;
+    --clr-black-2: #4F4F4F;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
