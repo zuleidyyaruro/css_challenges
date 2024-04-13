@@ -1,4 +1,3 @@
-<!-- Please update value in the {}  -->
 
 <h1 align="center">404 Not Found</h1>
 
@@ -17,8 +16,6 @@
     </a>
   </h3>
 </div>
-S
-<!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
@@ -26,19 +23,15 @@ S
 - [Built With](#built-with)
 - [Contact](#contact)
 
-<!-- OVERVIEW -->
-
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/zuleidyyaruro/css_challenges/main/404-not-found-master/assets/img/screencapture-mobile.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot](https://raw.githubusercontent.com/zuleidyyaruro/css_challenges/main/404-not-found-master/assets/img/screencapture-desktop.png)
 
-- I can see a page following the given design
+-  I can see a page that follows the indicated layout on desktop and mobile screens
 
 ### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - HTML
 - CSS
