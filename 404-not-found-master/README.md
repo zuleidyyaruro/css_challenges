@@ -27,7 +27,6 @@
 
 ![screenshot](https://raw.githubusercontent.com/zuleidyyaruro/css_challenges/main/404-not-found-master/assets/img/screencapture-mobile.png)
 
-![screenshot](https://raw.githubusercontent.com/zuleidyyaruro/css_challenges/main/404-not-found-master/assets/img/screencapture-desktop.png)
 
 -  I can see a page that follows the indicated layout on desktop and mobile screens
 
