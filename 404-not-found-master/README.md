@@ -7,11 +7,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://challenge-404.netlify.app/">
+    <a href="https://challenge-404.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://legacy.devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">
       Challenge
     </a>
   </h3>
