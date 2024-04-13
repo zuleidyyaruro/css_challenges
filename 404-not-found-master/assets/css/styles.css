@@ -14,54 +14,12 @@ html {
     box-sizing: inherit;
 }
 
-/** Header **/
-
 .title {
     font-family: "Inconsolata", monospace;
     font-weight: 700;
     font-size: 24px;
-    padding: 25px 77px;
+    padding: 25px 20px;
     text-transform: uppercase;
-}
-
-/** Main **/
-
-.main {
-    width: 85%;
-    height: calc(100vh - 100px);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.main__image {
-    width: 539.22px;
-    height: 447.43px;
-}
-
-.page__container-text  {
-    height: 447.43px;
-    font-family: "Space Mono", monospace;
-    color: var(--clr-black-1);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around
-}
-
-.page__title {
-    font-size: 55px;
-    width: 586px;
-    font-weight: 700;
-    margin: 0;
-}
-
-.page__info {
-    width: 381px;
-    font-weight: 400;
-    font-size:23px;
-    line-height: 35.54px;
-    margin: 0;
 }
 
 .page__button {
@@ -74,6 +32,76 @@ html {
     cursor: pointer;
 }
 
-.border {
-    border: 1px solid black;
+.main {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main__image {
+    width: 286.83px;
+    height: 238px;
+}
+
+.page__container-text  {
+    height: 447.43px;
+    font-family: "Space Mono", monospace;
+    color: var(--clr-black-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.page__title {
+    font-size: 48px;
+    width: 350px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.page__info {
+    width: 328px;
+    font-weight: 400;
+    font-size:18px;
+    line-height:26.66px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* media query para desktop */
+@media only screen and (min-width: 768px) {
+   
+    .main {   
+        height: calc(100vh - 100px);
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .main__image {
+        width: 539.22px;
+        height: 447.43px;
+    }
+
+    .page__title {
+        font-size: 55px;
+        width: 586px;
+    }
+    
+    .page__info {
+        width: 381px;
+        font-size:23px;
+        line-height: 35.54px;
+    }
+
+    .title {
+        padding: 25px 77px;
+    }
+
+
 }
